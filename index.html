@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#05070b" />
+  <meta name="description" content="Nexora — an immersive digital experience for a brighter tomorrow." />
+  <title>NEXORA — A Brighter Tomorrow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"><span></span></div>
+  <div class="scroll-progress"><i></i></div>
+
+  <header class="nav">
+    <a class="brand magnetic" href="#top" aria-label="Nexora home">
+      <span class="brand-mark">◈</span>
+      <span><b>NEXORA</b><small>IDEAS FOR A BRIGHTER TOMORROW</small></span>
+    </a>
+    <nav>
+      <a class="active" href="#top">Home</a>
+      <a href="#mission">Mission</a>
+      <a href="#innovation">Innovation</a>
+      <a href="#impact">Impact</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta magnetic" href="#contact">Join the journey <span>↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero scene">
+      <canvas id="space" aria-hidden="true"></canvas>
+      <div class="orbital-glow" aria-hidden="true"></div>
+      <div class="hero-image" data-speed="0.10" aria-hidden="true">
+        <div class="planet"><div class="planet-grid"></div><div class="planet-light"></div></div>
+      </div>
+      <div class="hero-copy layer" data-speed="0.18">
+        <p class="eyebrow">A MORE HUMAN TOMORROW</p>
+        <h1>Technology<br>for a <em>Brighter</em><br>Tomorrow.</h1>
+        <p class="lede">We build technologies, solutions, and communities that push humanity forward — sustainably, ethically, and together.</p>
+        <div class="hero-actions">
+          <a class="button magnetic" href="#mission">Explore our mission <span>→</span></a>
+          <a class="watch" href="#innovation"><i>▶</i> Watch the story</a>
+        </div>
+        <div class="stats">
+          <div><strong>10M<span>+</span></strong><small>PEOPLE REACHED</small></div>
+          <div><strong>150<span>+</span></strong><small>GLOBAL PARTNERS</small></div>
+          <div><strong>25</strong><small>COUNTRIES</small></div>
+        </div>
+      </div>
+      <aside class="hero-quote layer" data-speed="0.30">“The best way to predict<br>the future is to create it.”<b>— PETER DRUCKER</b></aside>
+      <div class="scene-index"><b>01</b><span></span><span>02</span><span>03</span><span>04</span><span>05</span></div>
+      <a class="scroll-cue" href="#mission"><span>SCROLL</span><b>↓</b></a>
+    </section>
+
+    <section class="purpose section" id="mission">
+      <div class="section-rail"><span>01</span><i></i><span>05</span></div>
+      <div class="purpose-copy reveal">
+        <p class="eyebrow">OUR PURPOSE</p>
+        <h2>A more connected,<br><span>smarter, kinder</span><br>world.</h2>
+        <p>We believe technology should amplify human potential — not replace it. Nexora works at the intersection of innovation, sustainability, and human well-being to solve the world's biggest challenges.</p>
+        <a class="text-link magnetic" href="#innovation">Discover our story <span>→</span></a>
+      </div>
+      <div class="orbit-stage reveal" id="orbitStage">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="world"><div class="continent"></div><div class="city-grid"></div></div>
+        <div class="orb-dot dot-a"></div><div class="orb-dot dot-b"></div><div class="orb-dot dot-c"></div>
+        <div class="orbit-label">REAL PROGRESS LIVES AT THE<br>INTERSECTION OF PEOPLE,<br>PLANET AND POSSIBILITY.</div>
+      </div>
+      <div class="purpose-cards">
+        <article class="glass-card reveal"><span>△</span><div><p>INNOVATION</p><h3>Bold ideas, real-world solutions.</h3></div><b>↗</b></article>
+        <article class="glass-card reveal"><span>◉</span><div><p>PEOPLE</p><h3>Empowering communities globally.</h3></div><b>↗</b></article>
+        <article class="glass-card reveal"><span>◌</span><div><p>PLANET</p><h3>Building a sustainable future.</h3></div><b>↗</b></article>
+      </div>
+    </section>
+
+    <section class="manifesto section" id="innovation">
+      <div class="manifesto-back">NEXORA</div>
+      <div class="manifesto-top reveal"><p class="eyebrow">THE APPROACH</p><p>SCROLL TO DISCOVER</p></div>
+      <div class="manifesto-grid">
+        <div class="manifesto-number reveal">02</div>
+        <div class="manifesto-main reveal"><h2>Make the impossible<br><em>practical.</em></h2><p>Progress is not a straight line. It's an ecosystem of experiments, failures, breakthroughs and people brave enough to try again.</p></div>
+        <div class="manifesto-metric reveal"><strong>∞</strong><span>Possibility is<br>our operating system.</span></div>
+      </div>
+      <div class="floating-chip chip-one" data-float>01 / THINK</div><div class="floating-chip chip-two" data-float>02 / BUILD</div><div class="floating-chip chip-three" data-float>03 / SCALE</div>
+    </section>
+
+    <section class="impact section" id="impact">
+      <div class="impact-head reveal"><div><p class="eyebrow">MEASURING WHAT MATTERS</p><h2>Small signals.<br><em>Massive impact.</em></h2></div><p>Every number represents a person, a community, or a system moved one step closer to a better future.</p></div>
+      <div class="impact-grid">
+        <article class="impact-card reveal"><span>01</span><strong data-count="10">0</strong><b>M+</b><p>People reached through technology-enabled programs.</p></article>
+        <article class="impact-card tall reveal"><span>02</span><strong data-count="150">0</strong><b>+</b><p>Partners collaborating across disciplines and borders.</p><div class="bars"><i></i><i></i><i></i><i></i><i></i></div></article>
+        <article class="impact-card reveal"><span>03</span><strong data-count="25">0</strong><p>Countries where ideas are becoming action.</p></article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-orb" aria-hidden="true"></div>
+      <div class="contact-inner reveal"><p class="eyebrow">THE NEXT CHAPTER</p><h2>What will you<br><em>create?</em></h2><p>We are looking for curious minds, ambitious partners, and impossible problems.</p><a class="button magnetic" href="mailto:hello@nexora.example">Start a conversation <span>↗</span></a></div>
+      <footer><span>© 2026 NEXORA</span><span>BUILT FOR WHAT'S NEXT</span><span>SCROLL ↑</span></footer>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
